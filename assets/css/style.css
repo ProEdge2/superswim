@@ -414,7 +414,7 @@ p.hover {
 
 .appoint-left:hover .game::after,
 .appoint-left.active .game::after {
-    opacity: 1;
+    opacity: 0;
     transform: scale(1);
 }
 
@@ -1851,4 +1851,9 @@ p.hover {
 #googleMap {
     width: 100%;
     height: 800px;
+}
+
+.test{
+    position: relative;
+    height: 100%
 }

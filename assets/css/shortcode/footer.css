@@ -6,6 +6,9 @@ NOTE: This is Footer style file. All footer related style included in this file.
 --------------------------------------*/
 .footer-area{
     background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-widget.f-right {
     padding-left: 150px;

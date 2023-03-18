@@ -938,6 +938,7 @@ p.hover {
 .single-price:hover,
 .single-price.offer {
     box-shadow: 0 0 12px 4px #d0d0d0;
+
 }
 
 .single-price:hover .price-icon img {

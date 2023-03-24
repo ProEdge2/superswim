@@ -1309,6 +1309,7 @@ p.hover {
     background-repeat: no-repeat;
     padding: 75px 0 80px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .welcome-area:after {
@@ -1630,7 +1631,7 @@ p.hover {
 }
 
 .contact-us-area {
-    margin-bottom: -300px;
+    margin-bottom: 300px;
     overflow: hidden;
 }
 

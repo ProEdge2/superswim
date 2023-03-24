@@ -27,14 +27,14 @@ Design and Developed by: Devitems
 /*------------------------------------
     01. Sticky Menu
 -------------------------------------- */  
-    $(window).on('scroll',function() {    
-       var scroll = $(window).scrollTop();
-       if (scroll < 245) {
-        $(".sticker").removeClass("stick");
-       }else{
-        $(".sticker").addClass("stick");
-       }
-    });
+    // $(window).on('scroll',function() {
+    //    var scroll = $(window).scrollTop();
+    //    if (scroll < 1000) {
+    //     $(".sticker").removeClass("stick");
+    //    }else{
+    //     $(".sticker").addClass("stick");
+    //    }
+    // });
 	
 /*------------------------------------
     02. Owl Carousel
@@ -183,12 +183,12 @@ Design and Developed by: Devitems
 /*-------------------------------------------
     05. ScrollUp jquery
 --------------------------------------------- */
-    $.scrollUp({
-        scrollText: '<i class="fa fa-angle-up"></i>',
-        easingType: 'linear',
-        scrollSpeed: 900,
-        animation: 'fade'
-    });  
+    // $.scrollUp({
+    //     scrollText: '<i class="fa fa-angle-up"></i>',
+    //     easingType: 'linear',
+    //     scrollSpeed: 900,
+    //     animation: 'fade'
+    // });
     
 /*-------------------------------------------
     06. wow js active
@@ -198,23 +198,23 @@ Design and Developed by: Devitems
 /*------------------------------------
 	07. Mail Chimp
 --------------------------------------*/
-    $('#mc-form').ajaxChimp({
-        language: 'en',
-        callback: mailChimpResponse,
-        // ADD YOUR MAILCHIMP URL BELOW HERE!
-        url: 'http://themeshaven.us8.list-manage.com/subscribe/post?u=759ce8a8f4f1037e021ba2922&amp;id=a2452237f8'
-    });
-    
-    function mailChimpResponse(resp) {
-        
-        if (resp.result === 'success') {
-            $('.mailchimp-success').html('' + resp.msg).fadeIn(900);
-            $('.mailchimp-error').fadeOut(400);
-            
-        } else if(resp.result === 'error') {
-            $('.mailchimp-error').html('' + resp.msg).fadeIn(900);
-        }  
-    }
+    // $('#mc-form').ajaxChimp({
+    //     language: 'en',
+    //     callback: mailChimpResponse,
+    //     // ADD YOUR MAILCHIMP URL BELOW HERE!
+    //     url: 'http://themeshaven.us8.list-manage.com/subscribe/post?u=759ce8a8f4f1037e021ba2922&amp;id=a2452237f8'
+    // });
+    //
+    // function mailChimpResponse(resp) {
+    //
+    //     if (resp.result === 'success') {
+    //         $('.mailchimp-success').html('' + resp.msg).fadeIn(900);
+    //         $('.mailchimp-error').fadeOut(400);
+    //
+    //     } else if(resp.result === 'error') {
+    //         $('.mailchimp-error').html('' + resp.msg).fadeIn(900);
+    //     }
+    // }
     
 /*--------------------------
    08. Magnificent Popup

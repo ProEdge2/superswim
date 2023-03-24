@@ -1355,6 +1355,7 @@ textarea:focus {
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
+    transform: translateY(25px);
 }
 .banner-area:after{
     position: absolute;
@@ -1376,7 +1377,7 @@ textarea:focus {
 .banner-content{
     display: table-cell;
     vertical-align: middle;
-    height: 300px;
+    height: 400px;
 }
 .banner-content h2{
     font-size: 24px;

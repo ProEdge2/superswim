@@ -1867,7 +1867,7 @@ p.hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    padding: 2vw;
 }
 
 .image {

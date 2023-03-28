@@ -1309,6 +1309,7 @@ p.hover {
     background-repeat: no-repeat;
     padding: 75px 0 80px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .welcome-area:after {
@@ -1595,19 +1596,23 @@ p.hover {
 /*  15.  Contact CSS
 /*----------------------------------------*/
 .banner-area.contact {
+    background: url(../images/banner/2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background: url(../images/banner/2.jpg);
+    width: 100%;
+    position: relative;
+    transform: translateY(25px);
 }
 
 .banner-area.contact::after {
-    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0.6) none scroll 0 0;
 }
 
 .contact-us-area .contact-right {
     width: 100%;
     background: #F6F6F6;
+
 }
 
 .contact-us-area .contact-right {
@@ -1630,7 +1635,7 @@ p.hover {
 }
 
 .contact-us-area {
-    margin-bottom: -300px;
+    margin-bottom: 300px;
     overflow: hidden;
 }
 
@@ -1857,3 +1862,113 @@ p.hover {
     position: relative;
     height: 100%
 }
+
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.image {
+    flex-basis: 40%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.text {
+    flex-basis: 55%;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.photo {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 22px;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+.photo img {
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    display: none;
+    z-index: 1;
+    text-align: center; /* Center the text of the parent element */
+}
+
+.popup p {
+    margin-bottom: 10px;
+}
+
+.popup button {
+    display: block;
+    margin-top: 10px;
+}
+
+.popup button#closeButton {
+    margin: 20px auto 0; /* Center the close button horizontally and add a margin at the top */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 1;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: none;
+    z-index: 0;
+}
+
+
+

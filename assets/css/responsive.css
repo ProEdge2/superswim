@@ -758,4 +758,8 @@
     .register-area .container {
         width: auto;
     }
+
+    .about-me{
+        display: block;
+    }
 }

@@ -43,7 +43,7 @@
 }
 .logo {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   text-align: left;
 }
 .main-menu {
@@ -237,3 +237,5 @@
 }
 .signup-form #form-pop-up {height: 598px; top: 47.2%;}
 .form-pop-up-content button:hover{color: #ddd}
+
+

@@ -56,16 +56,15 @@ CSS INDEX
     z-index: 20;
 }
 .slide-content h3 {
-	font-size: 30px;
+	font-size: 50px;
 	line-height: 30px;
 	position:relative;
     font-family: 'Lobster', cursive;
     margin-bottom: 3px;
     color: #fff;
-    text-transform: lowercase;
 }
 .slide-content h1, .home-banner-content h1 {
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 70px;
 	position:relative;
     font-family: 'Roboto', sans-serif;

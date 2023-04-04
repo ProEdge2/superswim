@@ -1971,4 +1971,8 @@ p.hover {
 }
 
 
+.hidden {
+    display: none;
+}
+
 

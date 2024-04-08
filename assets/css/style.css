@@ -1976,3 +1976,30 @@ p.hover {
 }
 
 
+.banner {
+    background-color: red; /* Green background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 20px; /* Some padding */
+    opacity: 100;
+}
+.class-banner {
+    position: absolute;
+    width: 100%;
+    top: 60%; /* Adjust as needed */
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(255, 0, 0, 0.7); /* Red semi-transparent background */
+    color: white; /* White text */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px; /* Adjust as needed */
+    font-weight: bold;
+    z-index: 10;
+    opacity: 100;
+  }
+  
+  /* Ensure the class-area is positioned relatively so the banner can be absolute to it */
+  .class-area {
+    position: relative;
+  }

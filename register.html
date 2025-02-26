@@ -103,6 +103,7 @@
 <!--                                                </li>-->
 <!--                                                <li class="hidden-sm"><a href="instructor.html">Instructor</a></li>-->
                                                 <li><a href="register.html">register </a></li>
+                                                <li><a href="sessions.html">Session Information </a></li>
                                                 <li><a href="contact.html">contact</a></li>
                                             </ul>
                                         </nav>
@@ -141,32 +142,8 @@
                 <div class="container">
                     <div>
                         <h1 style="padding-bottom: 1vw">Register Now!</h1>
-                        <div style="text-align: left; padding: 5vw 5vw;">
-                            <h5 style="padding-bottom: 1vw"><b>Please note all classes must be booked using the Calendly system below! Also, before booking please read
-                                the information below!</b></h5>
-                            <h6>• Please note, the start date of each session will appear on the calendar. The time you book for that session will have your child enrolled for that week and the following week (Monday to Thursday).
-                            </h6>
-                            <h6>
-                                • Please also note, bookings that fall on statutory holidays will have make-up lessons take place on that Friday. For example: Monday, July 3rd makeup class will take place on Friday, July 7th. Monday, August 7th makeup class will take place on Friday, August 4th.
-                            </h6>
-                            <h6>
-                                • When lessons are confirmed, you will receive a confirmation email, as well as a follow up from me one week before lessons begin.
-                            </h6>
-                            <h6>
-                                • In order to be fair, please only enroll your child into one session.  This gives everyone an opportunity to book lessons as well as the potential to welcome new clients!
-                            </h6>
-                        </div>
                     </div>
-                    <button id="myButton">Click here to view our Make-up day policy!</button>
-                    <div class="popup" id="myPopup">
-                        <p>Weather permitting, lessons will continue in rain. However, in lighting,
-                            down pour, and thunder, classes will be made up on Friday's wherever possible,
-                            or refunds will be given. If it is expected that such weather will occur, I will
-                            notify you the evening before/morning before your child's scheduled lesson. Classes
-                            will not be made up for personal absences.
-                            In the event of a sickness, I ask that you give 24 hours notice prior to cancelling, if possible. </p>
-                        <button id="closeButton">Close</button>
-                    </div>
+                    <button id="myButton">Click here to get information about our sessions!</button>
                     <div class="background" id="background"></div>
 
 
@@ -414,7 +391,11 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/side.js"></script>
-
+    <script>
+        document.getElementById('myButton').addEventListener('click', function() {
+            window.location.href = 'sessions.html';
+        });
+    </script>
 </body>
 
 </html>

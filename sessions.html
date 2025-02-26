@@ -1,0 +1,327 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sessions || Super Swimmers</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/slick.css">
+    <link rel="stylesheet" href="assets/css/plugins/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/shortcode/shortcodes.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        .session-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .session-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .session-title {
+            color: #0069ff;
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #0069ff;
+        }
+
+        .session-info {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .session-dates {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .price-tag {
+            background: #0069ff;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+
+        .important-note {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 15px 0;
+        }
+
+        .session-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .session-list li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .session-list li:before {
+            content: "•";
+            color: #0069ff;
+            font-size: 20px;
+            position: absolute;
+            left: 0;
+            top: 6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper bg-white fix">
+        <!--Bg White Start-->
+        <div class="bg-white">
+            <!--Header Area Start-->
+            <header class="header-area sticker" id="topnav">
+                <div class="header-wrapper header-padding">
+                    <div class="header-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-9">
+                                    <div class="top-left">
+                                        <ul>
+                                            <li><i class="zmdi zmdi-email"></i> super-swimmers@outlook.com</li>
+                                            <li><i class="zmdi zmdi-phone"></i> 416-906-3315</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-3">
+                                    <div class="top-right">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/superswimmersswim/"><i class="zmdi zmdi-facebook"></i></a></li>
+                                            <li><a href="https://instagram.com/superswimmersswim?igshid=YmMyMTA2M2Y="><i class="zmdi zmdi-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-header">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/images/logo/logo.png" alt="swimmer" /></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="menu-area">
+                                        <div class="menu-item">
+                                            <a class="navbar-toggle">
+                                                <div class="lines">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div id="navigation" class="main-menu">
+                                        <nav>
+                                            <ul class="navigation-menu">
+                                                <li><a href="index.html">home </a></li>
+                                                <li><a href="about.html">About </a></li>
+                                                <li><a href="sessions.html">Sessions </a></li>
+                                                <li><a href="register.html">register </a></li>
+                                                <li><a href="sessions.html">Session Information </a></li>
+                                                <li><a href="contact.html">contact</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- End of Header Area -->
+
+            <!-- Banner Area -->
+            <div class="banner-area text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="banner-content-wrapper">
+                                <div class="banner-content">
+                                    <h2>Session Information</h2>
+                                    <div class="banner-breadcrumb">
+                                        <ul>
+                                            <li><a href="index.html">home </a> <i class="zmdi zmdi-chevron-right"></i></li>
+                                            <li>sessions</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Session Information Area -->
+            <div class="container pt-80 pb-80">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="session-card">
+                            <h3 class="session-title">About Our Sessions</h3>
+                            <p class="session-info">
+                                Super Swimmers Swim School offers private and semi-private swimming lessons in our
+                                backyard private pool in Aurora. We offer Lifesaving Society Preschool lessons, and
+                                Swim for Life Lifesaving Society lessons (Levels 1-6).
+                            </p>
+                            <ul class="session-list">
+                                <li>Each session consists of 8 lessons running Monday to Thursday over a two-week period</li>
+                                <li>Rain days are made up on the Friday of either week</li>
+                                <li>All lessons are 30 minutes and start on the :00 and :30 of each hour</li>
+                                <li>Lessons run from 10:00am to 2:00 pm with an hour break between 12:00-1:00pm</li>
+                                <li>A $50 deposit is required to confirm lessons (send to super-swimmers@outlook.com)</li>
+                            </ul>
+                        </div>
+
+                        <div class="session-card">
+                            <h3 class="session-title">2024 Session Dates</h3>
+                            <div class="session-dates">
+                                <h4>Session 1: July 7-10, 14-17</h4>
+                                <p>8 classes total</p>
+                                
+                                <h4>Session 2: July 28-Aug 7</h4>
+                                <p>8 classes total (No class on August 4 – civic holiday. This class will be made up August 1st)</p>
+                            </div>
+                            
+                            <div class="important-note">
+                                <strong>Note for booking:</strong> The start date of each session will appear on the calendar.
+                                The time you book for that session will have your child enrolled for that week and the
+                                following week (Monday to Thursday).
+                            </div>
+                        </div>
+
+                        <div class="session-card">
+                            <h3 class="session-title">Pricing</h3>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="price-tag">
+                                        <h4>Private Lessons</h4>
+                                        <p>$350/session</p>
+                                        <small>Includes 8 private 30-minute lessons</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="price-tag">
+                                        <h4>Semi-Private Lessons</h4>
+                                        <p>$310/session per swimmer</p>
+                                        <small>Includes 8 semi-private 30-minute lessons</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mt-4">
+                                <strong>For Semi-Private Lessons:</strong> Only 1 booking is required. However, you will
+                                need to enter both names of the children attending the session when booking.
+                            </p>
+                        </div>
+
+                        <div class="session-card">
+                            <h3 class="session-title">Weather Policy</h3>
+                            <p class="session-info">
+                                Classes will continue to run in light to medium rain, but will be cancelled and
+                                rescheduled if there is any downpour, thunder or lightning.
+                            </p>
+                            <div class="important-note">
+                                Please note that missed lessons for personal reasons cannot be made up.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Start of contact Area -->
+            <div class="contact-area text-center pb-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="single-contact">
+                                <div class="contact-icon">
+                                    <i class="zmdi zmdi-home"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h5>Address</h5>
+                                    <p>6 Billingham Heights, Aurora ON, L4G 7R8</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-contact">
+                                <div class="contact-icon">
+                                    <i class="zmdi zmdi-phone"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h5>phone number</h5>
+                                    <p>416-906-3315</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-contact">
+                                <div class="contact-icon">
+                                    <i class="zmdi zmdi-email"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h5>email</h5>
+                                    <p>super-swimmers@outlook.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of contact Area -->
+        </div>
+    </div>
+
+    <!-- Calendly badge widget -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/superswimmers?hide_landing_page_details=1&hide_gdpr_banner=1', text: 'Don\'t delay – book your lessons today!', color: '#0069ff', textColor: '#ffffff', branding: false}); }</script>
+
+    <!-- JS -->
+    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html> 

@@ -54,9 +54,42 @@
 
         .session-dates {
             background: #f8f9fa;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
             margin: 20px 0;
+            line-height: 1.8;
+        }
+
+        .session-dates > p:first-child {
+            font-size: 16px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .session-dates h4 {
+            font-size: 18px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .session-dates h4:first-of-type {
+            margin-top: 0;
+        }
+
+        .session-dates p {
+            margin-bottom: 15px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .session-restriction {
+            margin-left: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            font-style: italic;
         }
 
         .price-tag {
@@ -71,8 +104,10 @@
         .important-note {
             background: #fff3cd;
             border-left: 4px solid #ffc107;
-            padding: 15px;
-            margin: 15px 0;
+            padding: 20px;
+            margin: 20px 0;
+            line-height: 1.8;
+            border-radius: 4px;
         }
 
         .session-list {
@@ -209,14 +244,15 @@
                         <div class="session-card">
                             <h3 class="session-title">2026 Session Dates</h3>
                             <div class="session-dates">
+                                <p><strong>All sessions are 8 classes total</strong></p>
+                                
                                 <h4>Session 1: June 29, June 30, July 2, July 3, July 6-9</h4>
-                                <p>* No class Wednesday, July 1st - Canada Day*</p>
+                                <p class="session-restriction">* No class Wednesday, July 1st - Canada Day*</p>
                                 
                                 <h4>Session 2: July 13-16, July 20-23</h4>
-                                <p>8 classes total</p>
                                 
                                 <h4>Session 3: August 4-7, August 10-13</h4>
-                                <p>* No class Monday, August 3rd - Civic Holiday*</p>
+                                <p class="session-restriction">* No class Monday, August 3rd - Civic Holiday*</p>
                             </div>
                             
                             <div class="important-note">
